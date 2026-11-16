@@ -1,0 +1,47 @@
+
+:root {
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+
+  color: #263238;
+  background: #f1f5f3;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
